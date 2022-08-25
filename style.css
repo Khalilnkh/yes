@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.latestpro h2{
+    position:absolute;
+    bottom: 0px;
+    left: 46%;
+    
+}
+.latestpro{
+    position: relative;
+    text-align: center;
+    
+}
+.mainbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0rem 22rem;
+    
+}
+.mainbox .box{
+    width: 32%;
+    padding: 30px 0px;
+    position: relative;
+}
+.mainbox .box img{
+    width: 100%;
+    border-radius: 10px;
+
+    
+}
+.mainbox .box .info{
+    position:absolute;
+    bottom:50px;
+    left:20px;
+    
+}
+.mainbox .box .info a{
+    display: block;
+    text-decoration: none;
+}
+.mainbox .box{
+    position: relative;
+}
+.mainbox .box .icon{
+    position: absolute;
+    right: 25px;
+    top: 75px;
+    display: flex;
+    flex-direction: column;
+    padding: 18px 7px;
+    background-color:#fff;
+    border-radius: 15px;
+    
+}
+.mainbox .box .icon i{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+   
